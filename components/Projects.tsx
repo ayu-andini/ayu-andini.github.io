@@ -8,8 +8,10 @@ export default function Projects() {
       image: '💰',
       features: [
         '📸 Receipt upload with AI OCR extraction',
-        '✍️ Manual item entry & ➗Flexible splitting (equal or per-item)',
-        '🌓 Dark / Light mode & 📱Mobile-first design'
+        '✍️ Manual item entry',
+        '➗Flexible splitting (equal or per-item)',
+        '🌓 Dark / Light mode',
+        '📱Mobile-first design'
       ],
       tech: ['Next.js 14', 'TypeScript', 'TailwindCSS', 'Google Gemini AI'],
       github: 'https://github.com/ayu-andini/splitsy',
@@ -41,7 +43,7 @@ export default function Projects() {
         'Booking and reservation management',
         'Payment tracking',
       ],
-      tech: ['Laravel', 'TailwindCSS', 'MySQL', 'Bootstrap', 'JavaScript'],
+      tech: ['Laravel', 'TailwindCSS', 'MySQL'],
       github: 'https://github.com/ayu-andini/rosezetty-frontend',
       // demo: null,
       color: 'from-secondary to-accent',

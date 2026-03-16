@@ -3,13 +3,14 @@
 export default function TechStack() {
   const techStacks = {
     frontend: [
+      { name: 'JavaScript', color: '#F7DF1E' },
+      { name: 'PHP', color: '#3178C6' },
       { name: 'Vue.js', color: '#42B883' },
       { name: 'React.js', color: '#61DAFB' },
       { name: 'Next.js', color: '#E34F26' },
       { name: 'Laravel', color: '#42B883' },
       { name: 'TailwindCSS', color: '#38B2AC' },
-      { name: 'JavaScript', color: '#F7DF1E' },
-      { name: 'TypeScript', color: '#3178C6' },
+      { name: 'TypeScript', color: '#F7DF1E' },
       { name: 'HTML5', color: '#E34F26' },
       { name: 'CSS3', color: '#1572B6' },
     ],
