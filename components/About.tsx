@@ -11,7 +11,7 @@ export default function About() {
               About <span className="gradient-text">Me</span>
             </h2>
             <p className="text-gray-600 dark:text-gray-400 text-lg">
-              Passionate about building impactful applications and teaching technology
+              Passionate about building impactful web applications and teaching technology
             </p>
           </div>
 
@@ -25,7 +25,7 @@ export default function About() {
                     <h3 className="text-2xl font-bold mb-2 text-gray-700 dark:text-gray-300">Education</h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       <span className="text-accent font-semibold">Information Systems graduate</span> with a strong foundation in software development,
-                      database management, and system design. My academic journey equipped me with
+                      database management and system design. My academic journey equipped me with
                       both theoretical knowledge and practical skills in modern web technologies.
                     </p>
                   </div>
@@ -40,12 +40,12 @@ export default function About() {
                   <div>
                     <h3 className="text-2xl font-bold mb-2 text-gray-700 dark:text-gray-300">Current Role</h3>
                     <p className="text-gray-600 dark:text-gray-400 mb-3">
-                      Currently working as a <span className="text-primary font-semibold">Fullstack Development Mentor</span> at{' '}
+                      Previously worked as a <span className="text-primary font-semibold">Fullstack Development Mentor</span> at{' '}
                       <span className="text-accent font-semibold">PT DumbWays Indonesia Teknologi</span>,
-                      where I guide students through modern engineering practices.
+                      where I guide <span className="text-primary">70+ students</span> through modern engineering practices.
                     </p>
                     <p className="text-gray-600 dark:text-gray-400">
-                      I deliver comprehensive fullstack content, facilitate code reviews, conduct live coding sessions,
+                      I deliver comprehensive fullstack content, facilitate code reviews, conduct live coding sessions
                       and prepare students for technical interviews. It's incredibly rewarding to see students
                       transform from beginners to confident developers.
                     </p>
@@ -61,9 +61,9 @@ export default function About() {
                   <div>
                     <h3 className="text-2xl font-bold mb-2 text-gray-700 dark:text-gray-300">What I Do</h3>
                     <p className="text-gray-600 dark:text-gray-400 mb-3">
-                      I specialize in building fullstack web applications using modern JavaScript frameworks
-                      and cloud technologies. My expertise spans from crafting beautiful, responsive frontends
-                      to designing robust, scalable backend systems.
+                      I specialize in building fullstack web applications using modern JavaScript frameworks. 
+                      My expertise spans from crafting beautiful, responsive frontends
+                      to designing robust and scalable backend systems.
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
                       <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
@@ -72,7 +72,7 @@ export default function About() {
                       </div>
                       <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
                         <span className="text-primary">✓</span>
-                        <span>Backend Development (Node.js, Express)</span>
+                        <span>Backend Development (Express.js, Laravel)</span>
                       </div>
                       <div className="flex items-center gap-2 text-gray-600 dark:text-gray-400">
                         <span className="text-primary">✓</span>

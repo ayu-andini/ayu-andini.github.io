@@ -5,11 +5,11 @@ export default function Experience() {
     {
       title: 'Fullstack Development Mentor',
       company: 'PT DumbWays Indonesia Teknologi',
-      period: 'September 2025 - Present',
+      period: 'September 2025 - March 2026',
       location: 'Hybrid',
       description: 'Mentoring students in fullstack web development from fundamentals to advanced concepts.',
       achievements: [
-        'Mentored 100+ students in online & offline methods',
+        'Mentored 70+ students in online & offline methods',
         'Delivered comprehensive fullstack curriculum using Express.js, React.js, Next.js, PostgreSQL, and Supabase',
         'Facilitated code reviews, live coding sessions, and technical interview simulations',
         'Guided students through real-world project development and deployment',
@@ -20,14 +20,14 @@ export default function Experience() {
       color: 'from-primary to-secondary',
     },
     {
-      title: 'Teaching Assistant & Supervisor',
+      title: 'Daily Supervisor & Teaching Assistant',
       company: 'Gunadarma University',
       period: 'September 2023 - May 2025',
       location: 'Jakarta, Indonesia',
       description: 'Led practicum sessions and supported students in technical learning environments.',
       achievements: [
         'Led hands-on practicum sessions for programming courses',
-        'Supported 100+ students in understanding complex technical concepts',
+        'Supported 150+ students in understanding complex technical concepts',
         'Managed laboratory operations and equipment',
         'Processed and evaluated academic results with accuracy',
         'Collaborated with faculty to improve curriculum delivery',

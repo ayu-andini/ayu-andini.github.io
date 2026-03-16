@@ -3,6 +3,20 @@
 export default function Projects() {
   const projects = [
     {
+      title: 'Split Bill App - Splitsy',
+      description: 'Modern web app to split bills easily using receipt scanning or manual input. Built using Google Gemini API to extract receipt data automatically and convert it into structured JSON.',
+      image: '💰',
+      features: [
+        '📸 Receipt upload with AI OCR extraction',
+        '✍️ Manual item entry & ➗Flexible splitting (equal or per-item)',
+        '🌓 Dark / Light mode & 📱Mobile-first design'
+      ],
+      tech: ['Next.js 14', 'TypeScript', 'TailwindCSS', 'Google Gemini AI'],
+      github: 'https://github.com/ayu-andini/splitsy',
+      demo: 'https://split-bill-splitsy.vercel.app/',
+      color: 'from-accent to-primary',
+    },
+    {
       title: 'Pre-Order Online Shop System - Rosezzty',
       description: 'A comprehensive online shop platform for pre-order management with real-time inventory tracking, secure payment, and customer management system.',
       image: '🛒',
@@ -13,8 +27,8 @@ export default function Projects() {
         'Admin dashboard with analytics',
       ],
       tech: ['Vue.js', 'Express.js', 'MySQL', 'TailwindCSS'],
-      github: 'https://github.com/Ayuu13',
-      demo: null,
+      github: 'https://github.com/ayu-andini/rosezetty-frontend',
+      // demo: null,
       color: 'from-primary to-secondary',
     },
     {
@@ -28,8 +42,8 @@ export default function Projects() {
         'Payment tracking',
       ],
       tech: ['Laravel', 'TailwindCSS', 'MySQL', 'Bootstrap', 'JavaScript'],
-      github: 'https://github.com/Ayuu13',
-      demo: null,
+      github: 'https://github.com/ayu-andini/rosezetty-frontend',
+      // demo: null,
       color: 'from-secondary to-accent',
     },
     {
@@ -43,25 +57,10 @@ export default function Projects() {
         'Cloud synchronization',
       ],
       tech: ['Google Cloud', 'Node.js', 'Express.js'],
-      // github: 'https://github.com/Ayuu13',
-      demo: null,
+      github: 'https://github.com/Ayuu13',
+      // demo: null,
       color: 'from-accent to-primary',
-    },
-    // {
-    //   title: 'Portfolio & Blog Platform',
-    //   description: 'Modern, responsive portfolio and blog platform with content management system, allowing users to showcase projects and share technical articles.',
-    //   image: '📝',
-    //   features: [
-    //     'Content management system',
-    //     'Markdown support for articles',
-    //     'Project showcase gallery',
-    //     'SEO optimized',
-    //   ],
-    //   tech: ['Next.js', 'Supabase', 'TailwindCSS', 'TypeScript'],
-    //   github: 'https://github.com/Ayuu13',
-    //   demo: null,
-    //   color: 'from-primary via-secondary to-accent',
-    // },
+    }
   ]
 
   return (
@@ -167,7 +166,7 @@ export default function Projects() {
               Want to see more of my work?
             </p>
             <a
-              href="https://github.com/Ayuu13"
+              href="https://github.com/ayu-andini"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-3 border-2 border-primary rounded-full text-primary font-medium hover:bg-primary hover:text-white transition-all duration-300 hover:-translate-y-1"

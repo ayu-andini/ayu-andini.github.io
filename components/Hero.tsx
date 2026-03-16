@@ -10,7 +10,7 @@ export default function Hero() {
   }, [])
 
   return (
-    <section id="hero"
+    <section id="hero" 
       className="min-h-screen flex items-center justify-center mt-5 pt-20 px-4 pb-10 sm:px-6 relative overflow-hidden bg-gray-50 dark:bg-gray-900">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
@@ -24,7 +24,7 @@ export default function Hero() {
                 I'm <span className="gradient-text">Ayu Andini</span>
               </h1>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-400 dark:text-gray-300">
-                Fullstack Developer <span className="text-primary">&</span>
+                Fullstack Web Developer <span className="text-primary">&</span>
                 <br />
                 Tech Education Mentor
               </h2>
@@ -32,9 +32,9 @@ export default function Hero() {
 
             <p className={`text-base sm:text-lg text-gray-500 dark:text-gray-400 light:text-gray-600 max-w-xl mx-auto lg:mx-0 ${mounted ? 'animate-fade-in animate-delay-300' : 'opacity-0'}`}>
               Information Systems graduate with hands-on experience in{' '}
-              <span className="text-primary font-semibold">Fullstack Web Development</span>,{' '}
-              <span className="text-secondary font-semibold">Cloud Computing</span>, and{' '}
+              <span className="text-primary font-semibold">Fullstack Web Development</span> and{' '}
               <span className="text-accent font-semibold">IT System Administration</span>.
+              Building scalable web applications, exploring modern technologies and sharing knowledge through mentoring.
             </p>
 
             <div className={`flex flex-col sm:flex-row flex-wrap justify-center lg:justify-start gap-3 sm:gap-4 ${mounted ? 'animate-fade-in animate-delay-400' : 'opacity-0'}`}>
